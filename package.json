@@ -4,12 +4,12 @@
   "description": "Se hicieron las correcciones solicitadas:",
   "main": "index.js",
   "scripts": {
-    "build-sass": "sass ./sass/main.scss ./css1/main.css -w --no-source-map"
+    "build-sass": "sass ./sass/main.scss ./css/main.css -w --no-source-map"
   },
-  "author": "",
+  "author": "Damian Garat",
   "license": "ISC",
   "dependencies": {
-    "sass": "^1.62.1"
+    "sass": "^1.63.6"
   },
   "devDependencies": {}
 }

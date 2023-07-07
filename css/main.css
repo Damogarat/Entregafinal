@@ -26,7 +26,7 @@ p {
 /*BODY*/
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: antiquewhite;
+  background-color: rgb(250, 222, 215);
 }
 
 /*EXTEND*/
@@ -39,16 +39,16 @@ body {
 /*FOOTER*/
 footer {
   height: 30px;
-  background-color: antiquewhite;
+  background-color: rgb(250, 222, 215);
   display: flex;
   justify-content: space-around;
   padding: 30px;
   font-size: 20px;
-  color: rgb(151, 66, 66);
+  color: rgba(9, 16, 221, 0.842);
 }
 
 .header {
-  background-color: antiquewhite;
+  background-color: rgb(250, 222, 215);
   padding: 30px 20px;
 }
 .header__container {
@@ -59,18 +59,18 @@ footer {
   align-items: center;
 }
 .header__container h1 a {
-  color: rgb(151, 66, 66);
+  color: rgba(9, 16, 221, 0.842);
   font-weight: bold;
 }
 
 .navbar-nav .nav-link {
-  color: rgb(151, 66, 66);
+  color: rgba(9, 16, 221, 0.842);
 }
 
 .hero {
-  background-color: antiquewhite;
+  background-color: rgb(250, 222, 215);
   padding: 60PX 20PX;
-  color: rgb(151, 66, 66);
+  color: rgba(9, 16, 221, 0.842);
 }
 .hero__container {
   max-width: 1200px;
@@ -131,7 +131,7 @@ footer {
 .card-container .card img {
   height: 500px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .card-container .card .card-body {
   padding: 1rem;
@@ -145,7 +145,7 @@ footer {
   }
 }
 .productos_body {
-  background-color: antiquewhite;
+  background-color: rgb(250, 222, 215);
 }
 
 .parrafo_producto {
@@ -162,17 +162,18 @@ footer {
 }
 
 form {
-  width: 400px;
-  background-color: antiquewhite;
-  padding: 60px;
+  width: min-content;
+  overflow: hidden;
+  background-color: rgba(250, 215, 215, 0.508);
+  padding: 20px;
   margin: auto;
   margin-top: 50px;
   border-radius: 4px;
-  color: rgb(178, 40, 212);
+  color: rgba(212, 66, 40, 0.945);
   box-shadow: 7px 13px 20px #000;
   margin-bottom: 50px;
 }
 
 body {
-  background-color: antiquewhite;
+  background-color: rgb(250, 222, 215);
 }
