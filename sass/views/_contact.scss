@@ -1,3 +1,11 @@
+.form-container {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
 form {
     width: min-content;
     overflow: hidden;
@@ -16,4 +24,8 @@ body{
     background-color: $backg;
 }
 
-
+@media (min-width: $bpMedium) {
+    .form-container {
+      display: flex;           
+    }
+  }
